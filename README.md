@@ -11,10 +11,14 @@ accretion disk at a given time using 3-dimensional data.
 
 ## Running the code
 
+To be able to run the code, you will need to have Matplotlib and NumPy insta-
+lled. Any of the most recent versions will work just well. 
+To run the code simpy type on the terminal `python amcvn_3d.py` or if you are
+on a UNIX system run `./amcvn_3d.py`.
+
 There are many factors to change depending what you want to run. If you would
 like to change the data of the simulation, then place your data in the data 
 directory and change the variable `txt_file` in the main code `amcvn_3d.py`.
-
 You can also choose the viewing angle, number of photon paths and the amount of
 points per line.
 
